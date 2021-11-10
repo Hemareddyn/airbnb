@@ -10,7 +10,7 @@
 
  const mongoose = require('mongoose');
  const userQuerySchema = mongoose.Schema({
-     firstname: { type: String, required},
+     firstname: { type: String, required:true},
      lastname: { type: String },
      date: {type: Date},
      email: { type: String }

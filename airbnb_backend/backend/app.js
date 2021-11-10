@@ -13,11 +13,12 @@ const express = require("express");
 const app = express();
 const router = express.Router();
 app.use(express.json());
-const bodyParser = require("body-parser");
+
+
 
 // internal dependencies
 const index_main = require("../index.js");
-const user_post = require("../models/contactus");
+const user_post = require("../models/signupModel");
 
 const PORT = 1110;
 

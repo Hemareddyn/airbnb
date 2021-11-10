@@ -16,7 +16,7 @@ const express = require("express");
 const app = express();
 
 //internal dependencies
-const userQuery = require("../models/contactus");
+// const userQuery = require("../models/signupModel");
 const mongoose = require("mongoose");
 
 
