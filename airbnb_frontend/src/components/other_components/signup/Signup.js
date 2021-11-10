@@ -1,3 +1,7 @@
+/**  author:hema ,
+// description:Signup  page[takes the phone number along with country code,
+                       if it is valid phone number moves to the next page]
+ */                      
 import React, { useState } from "react";
 import Validation from "./Validation";
 
@@ -28,6 +32,7 @@ const Signup = () => {
         <div className="header_title">
           <h3>Welcome to Airbnb</h3>
         </div>
+        {/* choose the country code  */}
         <form>
         <div className="form_input">
           <label For="countries">Country/Region</label>
@@ -88,7 +93,7 @@ const Signup = () => {
           </a>
           
         </div>
-        
+         {/* //can signup through below four websites */}
       <div className="hr_line">
         <p className="line"><span> or  </span> </p>
       </div> 

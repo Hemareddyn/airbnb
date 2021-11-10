@@ -1,3 +1,10 @@
+/**  author:Hema
+ * description:it checks about the valid data 
+ * valid-moves next
+ * invalid-it gives error like information to give like valid
+ * export:validation
+ * import:App.css
+*/
 import '../../app/App.css';
 
 const Validation = (values) => {

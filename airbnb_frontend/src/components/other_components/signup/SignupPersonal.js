@@ -1,3 +1,9 @@
+/**author:Hema;
+ * description: Finish the signup page ,takes firstname,lastname,DOB,email
+ * imported:React,react-router-dom,validation form
+ **/ 
+
+
 import React, { useState } from "react";
 import {Link} from 'react-router-dom';
 import Validation from "./Validation";
@@ -8,8 +14,8 @@ const SignupPersonal = () => {
     lastname: "",
     date: "",
     email: "",
-  });
-
+  })
+//handling errors using useState
   const [errors, setErrors] = useState({});
 
   const handleChange = (event) => {
